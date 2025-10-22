@@ -1,0 +1,128 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: Cathchye;
+  src: url(../../fonts/Catchye.otf);
+}
+
+.container-pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-color: #fbfbf5;
+}
+
+.h1-pricing {
+  font-family: Cathchye;
+  font-size: 45px;
+  position: relative;
+  bottom: -20px;
+}
+
+.h2-pricing {
+  font-family: "Poppins", sans-serif;
+  font-size: 85px;
+}
+
+.container-cards {
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  height: 350px;
+}
+
+.pricing-card {
+  padding: 40px;
+  background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #dedcdc;
+  border-radius: 7px;
+}
+
+.pricing-card:hover {
+  transform: translateY(-8px) scale(1.05);
+  background-color: #fafaf4fb;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title-price {
+  font-family: 'Poppins', sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #0a0a1d;
+}
+
+.ul-pricing-services {
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+  color: black;
+  margin: 20px;
+}
+
+.p-price {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 5px;
+  color: #767675;
+  font-size: 22px;
+}
+
+
+.btn-pricing {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  background-color: #eeeeec;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 7px;
+}
+
+.btn-pricing:hover {
+  background-color: #ffffff;
+  border: 1px solid #dedcdc;
+}
+
+@media (max-width: 640px) {
+  .h1-pricing {
+    font-size: 55px;
+    letter-spacing: 1px;
+  }
+
+  .h2-pricing {
+    font-size: 60px;
+    font-weight: 600;
+  }
+
+  .container-pricing {
+    height: auto;
+  }
+
+  .container-cards {
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .pricing-card {
+    height: 320px;
+  }
+
+  .title-price {
+    font-size: 30px;
+  }
+
+  .p-price {
+    font-size: 20px;
+  }
+
+  .btn-pricing {
+    padding: 10px;
+    margin: 10px;
+  }
+}

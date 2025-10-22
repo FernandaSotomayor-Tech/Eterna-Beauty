@@ -1,0 +1,135 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: Cathchye;
+  src: url(../../fonts/Catchye.otf);
+}
+
+.container-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 1000;
+  background-color: rgba(20, 18, 18, 0.199);
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+
+/* Clase que se activa al hacer scroll */
+.container-navbar.scrolled {
+  background-color: #191919;
+  border-bottom: 1px solid #ccc;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo {
+  font-family: Cathchye;
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+}
+
+.lista-navbar {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+
+.lista-navbar a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  color: white;
+  transition: 0.3s all ease-in-out;
+}
+
+.lista-navbar a:hover {
+  color: #fbc2a5;
+}
+
+.span-logo {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  position: relative;
+  top: -5px;
+}
+
+.hamburguer {
+  display: none;
+}
+
+.close-btn-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+
+
+  .logo {
+    font-size: 30pxs;
+  }
+
+  .hamburguer {
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: #fde1d0;
+    font-size: 30px;
+
+  }
+
+  .lista-navbar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background-color: #fde1d0;
+    height: 100vh;
+    width: 70%;
+    padding: 10px 20px;
+    overflow-y: auto;
+    z-index: 999;
+    transition: left 0.5s ease-in-out;
+  }
+
+  .lista-navbar a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #464545;
+    padding: 30px 20px;
+    margin: 20px;
+  }
+
+  .lista-navbar.open {
+    left: 0;
+  }
+
+  .close-btn-mobile {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+
+  .close-menu-btn {
+    background: none;
+    border: none;
+    color: #191919;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+    opacity: 0.9;
+    font-weight: 300;
+  }
+}

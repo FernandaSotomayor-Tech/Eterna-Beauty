@@ -1,0 +1,354 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: Cathchye;
+  src: url(../../fonts/Catchye.otf);
+}
+
+/* ABOUT US PART1 */
+
+.container-AboutUs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 680px;
+  background-color: #fbfbf5;
+}
+
+.img-about-us {
+  width: 50%;
+  height: 100%;
+  margin-top: 200px;
+}
+
+.img {
+  height: 400px;
+  margin-left: 250px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  margin-left: 150px;
+}
+
+.container-text-about-us {
+  width: 30%;
+  position: relative;
+  top: -60px;
+  margin-right: 200px;
+}
+
+.AboutUs-h1 {
+  font-family: Cathchye;
+  font-size: 75px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #191919;
+}
+
+.AboutUs-h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #191919;
+}
+
+.AboutUs-p {
+  font-family: 'Poppins', sans-serif;
+  color: #191919;
+}
+
+/* ABOUT US PART2 */
+
+.container-aboutUs-part2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  margin-top: 15%;
+}
+
+.sub-container-part2 {
+  display: flex;
+  width: 50%;
+  height: 500px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.part2-text-aboutUs {
+  width: 50%;
+  height: 500px;
+  position: relative;
+  bottom: -10px;
+  width: 42%;
+  margin-right: 30px;
+}
+
+.h2-part2 {
+  font-family: Cathchye;
+  font-size: 60px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-right: 170px;
+}
+
+.h3-part2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  margin-left: 180px;
+}
+
+.part2-h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.part2-text-information {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 5px;
+  width: 90%;
+}
+
+.ctaBtn-card-about {
+  border: none;
+  padding: 10px 30px;
+  background-color: #2e2e2e;
+  margin-top: 15px;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+  margin-right: 20px;
+}
+
+/* About Us Cards */
+.container-aboutUs-part3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  padding: 40px;
+}
+
+.card-aboutUs {
+  width: 23%;
+  height: 115%;
+  background-color: #fcfcfc;
+  border: 1px solid #d6d4d4;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 23px;
+  text-align: center;
+  margin-bottom: 150px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-aboutUs:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  background-color: #fdfcf6;
+  border: 1px solid #d9d7d7fd;
+}
+
+.icono {
+  font-size: 40px;
+  color: #2e2e2e;
+  margin-bottom: 10px;
+}
+
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #191919;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #666666;
+}
+
+/* PART 4 ABOUT US GRID */
+
+.container-about-us-part4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  gap: 20px;
+  padding: 40px;
+  background-color: #fffffb;
+}
+
+.img-grid {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-grid:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.img-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  border: 3px solid rgb(239, 240, 235);
+}
+
+.img-grid:hover img {
+  transform: scale(1.08);
+}
+
+.container-about-us-part4 .img-grid:nth-child(1) {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+
+.container-about-us-part4 .img-grid:nth-child(2) {
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+}
+
+.container-about-us-part4 .img-grid:nth-child(3) {
+  grid-row: 1/2;
+  grid-column: 3/4;
+}
+
+/* Animación al pasar el cursor */
+.container-about-us-part4 .img-grid:hover {
+  transform: translateY(-5px) scale(1.05);
+}
+
+.container-about-us-part4 .img-grid:hover img {
+  transform: scale(1.1);
+}
+
+@media (max-width: 640px) {
+
+  /* ABOUT US 1 PART */
+  .container-AboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .img-about-us {
+    width: 60%;
+    position: relative;
+    top: -70px;
+    left: -200px;
+    margin-right: 25px;
+  }
+
+  .img {
+    height: 350px;
+    width: 133%;
+    object-fit: cover;
+  }
+
+  .container-text-about-us {
+    width: 80%;
+    margin-left: 235px;
+    margin-top: 30px;
+  }
+
+  .AboutUs-h1 {
+    font-size: 60px;
+  }
+
+  .AboutUs-h2 {
+    font-size: 25px;
+  }
+
+
+  /* ABOUT US 1 PART END */
+  /* ABOUT US 2 PART  START*/
+  .container-aboutUs-part2 {
+    flex-direction: column;
+    height: 700px;
+    position: relative;
+    top: -110px;
+    padding-top: 70px;
+    width: 120%;
+  }
+
+  .sub-container-part2,
+  .part2-text-aboutUs {
+    width: 100% !important;
+    margin-right: 200px;
+  }
+
+  .part2-text-aboutUs {
+    padding: 85px;
+    position: relative;
+    top: -50px;
+    right: -55px;
+  }
+
+  .part2-h4 {
+    padding: 30px;
+
+  }
+
+  .part2-text-information {
+    padding: 20px;
+    position: relative;
+    top: -20px;
+    margin-left: 10px;
+  }
+
+  .h2-part2 {
+    font-size: 55px;
+    margin-left: -30px;
+  }
+
+  .h3-part2 {
+    font-size: 55px;
+    font-weight: 600;
+    margin-left: 145px;
+  }
+
+  .ctaBtn-card-about {
+    margin-left: 30px;
+    margin-top: 0;
+  }
+
+  /* ABOUT US 2 PART END*/
+  /* ABOUT US 3 PART STAR*/
+  .container-aboutUs-part3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: start;
+    height: auto;
+    gap: 30px;
+    position: relative;
+    top: -110px;
+  }
+
+  .card-aboutUs {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  /* ABOUT US 3 PART END*/
+  /*PART 4 ABOUT US GRID START */
+  .container-about-us-part4 {
+    height: 700px;
+  }
+
+  .img-grid img {
+    width: 115%;
+  }
+
+  /* PART 4 ABOUT US GRID END */
+}
