@@ -1,8 +1,6 @@
 💄 Eterna Beauty - Services Landing Page
 This project is a minimalist Landing Page for an aesthetics brand, built with a focus on Clean Code and Component-Based Architecture. The main goal was to create a fluid and visually elegant user experience without relying on external UI frameworks.
 
-🔗 Live Demo
-
 🛠️ Tech Stack
 React JS: Core library used for building the user interface.
 
@@ -37,9 +35,3 @@ I'm ready to join your team and start building. Reach out!
 
 LinkedIn: [Fernanda Sotomayor](https://www.linkedin.com/in/fernanda-sotomayor-726650265)
 Email: [fernandasotomayortech@gmail.com](mailto:fernandasotomayortech@gmail.com)
-
-CSS Scalability:
-
-Challenge: Managing styles without global conflicts.
-
-Solution: Structured independent CSS files for each component, ensuring a more scalable and organized codebase.
