@@ -35,9 +35,8 @@ Solution: Applied strategic background transitions between light and dark sectio
 🤝 Let's work together!
 I'm ready to join your team and start building. Reach out!
 
-LinkedIn:www.linkedin.com/in/fernanda-sotomayor-726650265
-
-Email:  fernandasotomayortech@gmail.com
+LinkedIn: [Fernanda Sotomayor](https://www.linkedin.com/in/fernanda-sotomayor-726650265)
+Email: [fernandasotomayortech@gmail.com](mailto:fernandasotomayortech@gmail.com)
 
 CSS Scalability:
 
